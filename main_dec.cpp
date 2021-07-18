@@ -2,6 +2,8 @@
 //#include<cstdio>
 #include<string>
 #include"ohne_artikel.h"
+#include"definite.h"
+#include"indefinite.h"
 
 int main()
 {
@@ -15,11 +17,14 @@ puts("===================================================");
 
 puts("a)Declination of adjectives without article.");
 puts("b)Declination of adjectives with definite article.");
-puts("d)Declination of adjectives with indefinite article.");
+puts("c)Declination of adjectives with indefinite article.");
+puts("====================================================");
 std::cin>>choice1; 
 switch(choice1)
           {
   case 'a' : without_adj();break;
+  case 'b' : definite();break;
+  case 'c' : indefinite();break;
 default  : puts("It's not available yet, coming soon.");exit(0);break;
          }           
 
@@ -33,7 +38,21 @@ std:: cin >> choice2;
 
 switch(choice2){
 
-case 'a' :without_adj();break;
+case 'a' :
+puts("a)Declension of adjectives without article.");
+puts("b)Declension of adjectives with definite article.");
+puts("c)Declension of adjectives with indefinite article.");
+puts("====================================================");
+std::cin>>choice1; 
+switch(choice1)
+          {
+  case 'a' : without_adj();break;
+  case 'b' : definite();break;
+  case 'c' : indefinite();break;
+default  : puts("It's not available yet, coming soon.");exit(0);break;
+         }           
+/*************************************************************************/
+
 case 'b' :exit(0);break;
              }
 

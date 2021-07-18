@@ -1,5 +1,5 @@
 /*Adjective declination, type 2, without article;.*/
-class ques
+class ques2
 {
 private:
  std::string  ans;
@@ -20,18 +20,18 @@ return ans;
   }
 
 };
-extern int without_adj()
+/***************************************************************************************/
+extern int indefinite()
 {
 int total_score;
 char choice;
 
+ques2 q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20;
 
-ques q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20;
-
-puts("==========================================================");
-puts("Declention of adjectives without article, second declension");
-puts("==========================================================");
-
+puts("===========================================================");
+puts("Declension of Adjectives,Type 3, with  Indefitite Article  ");
+puts("===========================================================");
+puts("Hint: signs  in the bracket represent case, number, gender respectively");
 
 /*******************************************************/
 /*1*/
@@ -42,7 +42,7 @@ puts("=========================================================");
 q1.setAns("er");
 
 
-std::cout<<"1)rot...Stein.[N.S.M]\n";
+std::cout<<"1)ein rot...Stein.[N.S.M]\n";
 std::cin >> q1.get;
 if(q1.getAns().compare(q1.get)==0)
     {
@@ -74,7 +74,7 @@ puts("=========================================================");
 q2.setAns("en");
 
 
-std::cout<<"2)rot...Stein.[A.S.M]\n";
+std::cout<<"2)einen rot...Stein.[A.S.M]\n";
 std::cin >> q2.get;
 if(q2.getAns().compare(q2.get)==0)
     {
@@ -103,10 +103,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note<<" out of 10"<<std::
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q3.setAns("em");
+q3.setAns("en");
 
 
-std::cout<<"3)rot...Stein[D.S.M].\n";
+std::cout<<"3)einem rot...Stein[D.S.M].\n";
 std::cin >> q3.get;
 if(q3.getAns().compare(q3.get)==0)
     {
@@ -138,7 +138,7 @@ puts("=========================================================");
 q4.setAns("en");
 
 
-std::cout<<"4)rot...Steines.[G.S.M]\n";
+std::cout<<"4)eines rot...Steines.[G.S.M]\n";
 std::cin >> q4.get;
 if(q4.getAns().compare(q4.get)==0)
     {
@@ -170,7 +170,7 @@ puts("=========================================================");
 q5.setAns("es");
 
 
-std::cout<<"5)hell...Licht.[N.S.N]\n";
+std::cout<<"5)ein hell...Licht.[N.S.N]\n";
 std::cin >> q5.get;
 if(q5.getAns().compare(q5.get)==0)
     {
@@ -202,7 +202,7 @@ puts("=========================================================");
 q6.setAns("es");
 
 
-std::cout<<"6)hell...Licht.[A.S.N]\n";
+std::cout<<"6)ein hell...Licht.[A.S.N]\n";
 std::cin >> q6.get;
 if(q6.getAns().compare(q6.get)==0)
     {
@@ -231,10 +231,10 @@ q4.note+ q5.note+q6.note<<" out of 30"<<std::endl;
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q7.setAns("em");
+q7.setAns("en");
 
 
-std::cout<<"7)hell...Licht.[D.S.N]\n";
+std::cout<<"7)einem hell...Licht.[D.S.N]\n";
 std::cin >> q7.get;
 if(q7.getAns().compare(q7.get)==0)
     {
@@ -266,7 +266,7 @@ puts("=========================================================");
 q8.setAns("en");
 
 
-std::cout<<"8)hell...Licht.[G.S.N]\n";
+std::cout<<"8)eines hell...Licht.[G.S.N]\n";
 std::cin >> q8.get;
 if(q8.getAns().compare(q8.get)==0)
     {
@@ -299,7 +299,7 @@ puts("=========================================================");
 q9.setAns("e");
 
 
-std::cout<<"9)klar...Luft.[N.S.F]\n";
+std::cout<<"9)eine klar...Luft.[N.S.F]\n";
 std::cin >> q9.get;
 if(q9.getAns().compare(q9.get)==0)
     {
@@ -331,7 +331,7 @@ puts("=========================================================");
 q10.setAns("e");
 
 
-std::cout<<"10)klar...Luft.[A.S.F]\n";
+std::cout<<"10)eine klar...Luft.[A.S.F]\n";
 std::cin >> q10.get;
 if(q10.getAns().compare(q10.get)==0)
     {
@@ -360,10 +360,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+q3.note+ q4.note+q5.
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q11.setAns("er");
+q11.setAns("en");
 
 
-std::cout<<"11)klar...Luft.[D.S.F]\n";
+std::cout<<"11)einer klar...Luft.[D.S.F]\n";
 std::cin >> q11.get;
 if(q11.getAns().compare(q11.get)==0)
     {
@@ -392,10 +392,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+q3.note+ q4.note+q5.
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q12.setAns("er");
+q12.setAns("en");
 
 
-std::cout<<"12)klar...Luft.[G.S.F]\n";
+std::cout<<"12)einer klar...Luft.[G.S.F]\n";
 std::cin >> q12.get;
 if(q12.getAns().compare(q12.get)==0)
     {
@@ -427,7 +427,7 @@ puts("=========================================================");
 q13.setAns("e");
 
 
-std::cout<<"13)rund...Formen.[N.P.-]\n";
+std::cout<<"13)--rund...Formen.[N.P.-]\n";
 std::cin >> q13.get;
 if(q13.getAns().compare(q13.get)==0)
     {
@@ -459,7 +459,7 @@ puts("=========================================================");
 q14.setAns("e");
 
 
-std::cout<<"14)rund...Formen[A.P.-]\n";
+std::cout<<"14)--rund...Formen[A.P.-]\n";
 std::cin >> q14.get;
 if(q14.getAns().compare(q14.get)==0)
     {
@@ -491,7 +491,7 @@ puts("=========================================================");
 q15.setAns("en");
 
 
-std::cout<<"15)rund...Formen[D.P.-].\n";
+std::cout<<"15)--rund...Formen[D.P.-].\n";
 std::cin >> q15.get;
 if(q15.getAns().compare(q15.get)==0)
     {
@@ -523,7 +523,7 @@ puts("=========================================================");
 q16.setAns("er");
 
 
-std::cout<<"16)runde...Formen[G.P.-].\n";
+std::cout<<"16)--runde...Formen[G.P.-].\n";
 std::cin >> q16.get;
 if(q16.getAns().compare(q16.get)==0)
     {
@@ -552,10 +552,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+q3.note+q4.note+q5.n
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q17.setAns("er");
+q17.setAns("en");
 
 
-std::cout<<"17)klar....Luft[G.S.F]\n";
+std::cout<<"17)einer klar....Luft[G.S.F]\n";
 std::cin >> q17.get;
 if(q17.getAns().compare(q17.get)==0)
     {
@@ -583,10 +583,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+q3.note+q4.note+q5.n
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q18.setAns("er");
+q18.setAns("en");
 
 
-std::cout<<"18)klar....Luft[D.S.F]\n";
+std::cout<<"18)einer klar....Luft[D.S.F]\n";
 std::cin >> q18.get;
 if(q18.getAns().compare(q18.get)==0)
     {
@@ -617,7 +617,7 @@ puts("=========================================================");
 q19.setAns("e");
 
 
-std::cout<<"19)rund....Formen[N.P.-]\n";
+std::cout<<"19)--rund....Formen[N.P.-]\n";
 std::cin >> q19.get;
 if(q19.getAns().compare(q19.get)==0)
     {
@@ -645,10 +645,10 @@ std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+q3.note+q4.note+q5.n
 /*******************************************************/
 puts("=========================================================");
 puts("=========================================================");
-q20.setAns("er");
+q20.setAns("en");
 
 
-std::cout<<"20)klar....Luft[D.S.F]\n";
+std::cout<<"20)einer klar....Luft[D.S.F]\n";
 std::cin >> q20.get;
 if(q20.getAns().compare(q20.get)==0)
     {
