@@ -49,7 +49,7 @@ puts("=========================================================");
 q1.setAns("e");
 
 
-std::cout<<"1)rot...Stein.[N.S.M]\n";
+std::cout<<"1)der rot...Stein.[N.S.M]\n";
 std::cin >> q1.get;
 if(q1.getAns().compare(q1.get)==0)
     {
@@ -81,7 +81,7 @@ puts("=========================================================");
 q2.setAns("en");
 
 
-std::cout<<"2)rot...Stein.[A.S.M]\n";
+std::cout<<"2)den rot...Stein.[A.S.M]\n";
 std::cin >> q2.get;
 if(q2.getAns().compare(q2.get)==0)
     {
@@ -113,7 +113,7 @@ puts("=========================================================");
 q3.setAns("en");
 
 
-std::cout<<"3)rot...Stein[D.S.M].\n";
+std::cout<<"3)dem rot...Stein[D.S.M].\n";
 std::cin >> q3.get;
 if(q3.getAns().compare(q3.get)==0)
     {
@@ -145,7 +145,7 @@ puts("=========================================================");
 q4.setAns("en");
 
 
-std::cout<<"4)rot...Steines.[G.S.M]\n";
+std::cout<<"4)des rot...Steines.[G.S.M]\n";
 std::cin >> q4.get;
 if(q4.getAns().compare(q4.get)==0)
     {
@@ -177,7 +177,7 @@ puts("=========================================================");
 q5.setAns("e");
 
 
-std::cout<<"5)hell...Licht.[N.S.N]\n";
+std::cout<<"5)das hell...Licht.[N.S.N]\n";
 std::cin >> q5.get;
 if(q5.getAns().compare(q5.get)==0)
     {
@@ -209,7 +209,7 @@ puts("=========================================================");
 q6.setAns("e");
 
 
-std::cout<<"6)hell...Licht.[A.S.N]\n";
+std::cout<<"6)das hell...Licht.[A.S.N]\n";
 std::cin >> q6.get;
 if(q6.getAns().compare(q6.get)==0)
     {
@@ -241,7 +241,7 @@ puts("=========================================================");
 q7.setAns("en");
 
 
-std::cout<<"7)hell...Licht.[D.S.N]\n";
+std::cout<<"7)dem hell...Licht.[D.S.N]\n";
 std::cin >> q7.get;
 if(q7.getAns().compare(q7.get)==0)
     {
@@ -273,7 +273,7 @@ puts("=========================================================");
 q8.setAns("en");
 
 
-std::cout<<"8)hell...Licht.[G.S.N]\n";
+std::cout<<"8)des hell...Licht.[G.S.N]\n";
 std::cin >> q8.get;
 if(q8.getAns().compare(q8.get)==0)
     {
@@ -306,7 +306,7 @@ puts("=========================================================");
 q9.setAns("e");
 
 
-std::cout<<"9)klar...Luft.[N.S.F]\n";
+std::cout<<"9)die klar...Luft.[N.S.F]\n";
 std::cin >> q9.get;
 if(q9.getAns().compare(q9.get)==0)
     {
@@ -338,7 +338,7 @@ puts("=========================================================");
 q10.setAns("e");
 
 
-std::cout<<"10)klar...Luft.[A.S.F]\n";
+std::cout<<"10)die klar...Luft.[A.S.F]\n";
 std::cin >> q10.get;
 if(q10.getAns().compare(q10.get)==0)
     {
@@ -370,7 +370,7 @@ puts("=========================================================");
 q11.setAns("en");
 
 
-std::cout<<"11)klar...Luft.[D.S.F]\n";
+std::cout<<"11)der klar...Luft.[D.S.F]\n";
 std::cin >> q11.get;
 if(q11.getAns().compare(q11.get)==0)
     {
@@ -402,7 +402,7 @@ puts("=========================================================");
 q12.setAns("en");
 
 
-std::cout<<"12)klar...Luft.[G.S.F]\n";
+std::cout<<"12)der klar...Luft.[G.S.F]\n";
 std::cin >> q12.get;
 if(q12.getAns().compare(q12.get)==0)
     {
@@ -434,7 +434,7 @@ puts("=========================================================");
 q13.setAns("en");
 
 
-std::cout<<"13)rund...Formen.[N.P.-]\n";
+std::cout<<"13)die rund...Formen.[N.P.-]\n";
 std::cin >> q13.get;
 if(q13.getAns().compare(q13.get)==0)
     {
@@ -466,7 +466,7 @@ puts("=========================================================");
 q14.setAns("en");
 
 
-std::cout<<"14)rund...Formen[A.P.-]\n";
+std::cout<<"14)die rund...Formen[A.P.-]\n";
 std::cin >> q14.get;
 if(q14.getAns().compare(q14.get)==0)
     {
@@ -498,7 +498,7 @@ puts("=========================================================");
 q15.setAns("en");
 
 
-std::cout<<"15)rund...Formen[D.P.-].\n";
+std::cout<<"15)den rund...Formen[D.P.-].\n";
 std::cin >> q15.get;
 if(q15.getAns().compare(q15.get)==0)
     {
@@ -530,7 +530,7 @@ puts("=========================================================");
 q16.setAns("en");
 
 
-std::cout<<"16)runde...Formen[G.P.-].\n";
+std::cout<<"16)der runde...Formen[G.P.-].\n";
 std::cin >> q16.get;
 if(q16.getAns().compare(q16.get)==0)
     {
@@ -562,7 +562,7 @@ puts("=========================================================");
 q17.setAns("en");
 
 
-std::cout<<"17)klar....Luft[G.S.F]\n";
+std::cout<<"17)der klar....Luft[G.S.F]\n";
 std::cin >> q17.get;
 if(q17.getAns().compare(q17.get)==0)
     {
@@ -593,7 +593,7 @@ puts("=========================================================");
 q18.setAns("en");
 
 
-std::cout<<"18)klar....Luft[D.S.F]\n";
+std::cout<<"18)der klar....Luft[D.S.F]\n";
 std::cin >> q18.get;
 if(q18.getAns().compare(q18.get)==0)
     {
@@ -624,7 +624,7 @@ puts("=========================================================");
 q19.setAns("en");
 
 
-std::cout<<"19)rund....Formen[N.P.-]\n";
+std::cout<<"19)die  rund....Formen[N.P.-]\n";
 std::cin >> q19.get;
 if(q19.getAns().compare(q19.get)==0)
     {
@@ -655,7 +655,7 @@ puts("=========================================================");
 q20.setAns("en");
 
 
-std::cout<<"20)klar....Luft[D.S.F]\n";
+std::cout<<"20)der klar....Luft[D.S.F]\n";
 std::cin >> q20.get;
 if(q20.getAns().compare(q20.get)==0)
     {
