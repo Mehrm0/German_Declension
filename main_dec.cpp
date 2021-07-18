@@ -15,9 +15,9 @@ puts("===================================================");
 puts("WELLECOME TO GERMAN GRAMMAR,PLEASE CHOOSE AN OPTION");
 puts("===================================================");
 
-puts("a)Declination of adjectives without article.");
-puts("b)Declination of adjectives with definite article.");
-puts("c)Declination of adjectives with indefinite article.");
+puts("a)Declension of adjectives without article.");
+puts("b)Declension of adjectives with definite article.");
+puts("c)Declension of adjectives with indefinite article.");
 puts("====================================================");
 std::cin>>choice1; 
 switch(choice1)
