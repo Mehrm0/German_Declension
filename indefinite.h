@@ -1,4 +1,4 @@
-/*Adjective declination, type 2, without article;.*/
+/*Adjective declension, type 2, without article;.*/
 class ques2
 {
 private:
