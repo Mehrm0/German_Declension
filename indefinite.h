@@ -91,7 +91,7 @@ case true :   q2.note=5;break;
 case false:   q2.note=0;break;
 }
 /*****************************************************/
-(q1.res==true)?
+(q2.res==true)?
 std::cout<<"True\n":
 std::cout<<"False, the answer is:"<< q2.getAns()<<std::endl;
 /*******************************************************/
@@ -123,7 +123,7 @@ case true :   q3.note=5;break;
 case false:   q3.note=0;break;
 }
 /*****************************************************/
-(q1.res==true)?
+(q3.res==true)?
 std::cout<<"True\n":
 std::cout<<"False, the answer is:"<< q3.getAns()<<std::endl;
 /*******************************************************/
@@ -155,7 +155,7 @@ case true :   q4.note=5;break;
 case false:   q4.note=0;break;
 }
 /*****************************************************/
-(q1.res==true)?
+(q4.res==true)?
 std::cout<<"True\n":
 std::cout<<"False, the answer is:"<< q4.getAns()<<std::endl;
 /*******************************************************/
