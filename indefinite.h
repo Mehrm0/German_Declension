@@ -287,7 +287,7 @@ case false:   q8.note=0;break;
 std::cout<<"True\n":
 std::cout<<"False, the answer is:"<< q8.getAns()<<std::endl;
 /*******************************************************/
-std :: cout <<"Your note until now is:\n"<< q1.note+ q2.note+q3.note+ q4.note+q5.note+q6.note+ q7.note+q8.note+q9.note<<" out of 40"<<std::endl
+std :: cout <<"Your note until now is:\n"<< q1.note+ q2.note+q3.note+ q4.note+q5.note+q6.note+ q7.note+q8.note<<" out of 40"<<std::endl
 ;
 
 
@@ -320,7 +320,7 @@ case false:   q9.note=0;break;
 std::cout<<"True\n":
 std::cout<<"False, the answer is:"<< q9.getAns()<<std::endl;
 /*******************************************************/
-std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+ q3.note+q4.note+ q5.note+q6.note+q7.note+ q8.note+q9.note+q10.note<<" out of 45"<<std::endl;
+std :: cout <<"Your note until now is:\n"<< q1.note+q2.note+ q3.note+q4.note+ q5.note+q6.note+q7.note+ q8.note+q9.note<<" out of 45"<<std::endl;
 
 
 /*******************************************************/
