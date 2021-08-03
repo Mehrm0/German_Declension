@@ -4,6 +4,7 @@
 #include"ohne_artikel.h"
 #include"definite.h"
 #include"indefinite.h"
+#include"mix_adj_2_3.h"
 
 int main()
 {
@@ -18,6 +19,7 @@ puts("===================================================");
 puts("a)Declension of adjectives without article.");
 puts("b)Declension of adjectives with definite article.");
 puts("c)Declension of adjectives with indefinite article.");
+puts("d)Declension of adjectives with and without article.");
 puts("====================================================");
 std::cin>>choice1; 
 switch(choice1)
@@ -25,6 +27,7 @@ switch(choice1)
   case 'a' : without_adj();break;
   case 'b' : definite();break;
   case 'c' : indefinite();break;
+  case 'd' : mix_adj_2_3();break;
 default  : puts("It's not available yet, coming soon.");exit(0);break;
          }           
 
@@ -42,6 +45,7 @@ case 'a' :
 puts("a)Declension of adjectives without article.");
 puts("b)Declension of adjectives with definite article.");
 puts("c)Declension of adjectives with indefinite article.");
+puts("d)Declension of adjectives with and without article.");
 puts("====================================================");
 std::cin>>choice1; 
 switch(choice1)
@@ -49,6 +53,7 @@ switch(choice1)
   case 'a' : without_adj();break;
   case 'b' : definite();break;
   case 'c' : indefinite();break;
+  case 'd' : mix_adj_2_3();break;
 default  : puts("It's not available yet, coming soon.");exit(0);break;
          }           
 /*************************************************************************/
